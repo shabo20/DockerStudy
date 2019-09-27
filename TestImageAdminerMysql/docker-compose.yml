@@ -14,4 +14,4 @@ services:
           build: ./adminer
           restart: always
           ports:
-          - 5555:8080
+          - 6666:8080
