@@ -6,7 +6,7 @@ services:
     build: ./db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 7777777
+      MYSQL_ROOT_PASSWORD: 123456789
     volumes:
             - ./databases:/var/lib/mysql
 
@@ -14,4 +14,4 @@ services:
           build: ./adminer
           restart: always
           ports:
-          - 7878:8080
+          - 6565:8080
